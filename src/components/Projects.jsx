@@ -87,6 +87,14 @@ const allProjects = [
         github: "https://github.com/SurajSingh9696/MyPortfolio",
         image: "/projects/portfolio.png"
     },
+    {
+        name: "Pulse - A SaaS Dashboard Solution",
+        desc: "A SaaS dashboard solution that provides real-time analytics and insights for businesses. Built with React and TailwindCSS for a sleek and user-friendly interface.",
+        tags: ["React.js","Next.js" , "TailwindCSS" , "SaaS", "JWT" , "Chart.js"],
+        link: "https://pulse-saas-dashboard.onrender.com",
+        github: "https://github.com/SurajSingh9696/Pulse-SaaS-Dashboard",
+        image: "/projects/pulse.png"
+    },
 ];
 
 // Extract unique tags for filtering
