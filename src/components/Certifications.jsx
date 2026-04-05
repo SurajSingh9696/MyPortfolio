@@ -7,6 +7,55 @@ import SectionHeader from "./SectionHeader";
 
 const allCerts = [
     {
+        name: "CodeFest- National Coding Hackathon",
+        org: "NIT Durgapur",
+        year: "Mar 2026",
+        desc: "National-level coding hackathon organized by NIT Durgapur.",
+        tags: ["Certification", "AI", "ML", "DSA", "Hackathon"],
+        link: "https://drive.google.com/file/d/1Wv_heVtfzhgDXbhjoI9VkwI9Cds_dprN/view?usp=sharing",
+        color: "#8bfab2",
+    },
+    {
+        name: "HCL GUVI AI Buildathon 2026",
+        org: "HCL GUVI",
+        year: "Mar 2025",
+        desc: "AI Buildathon organized by HCL GUVI, focused on building AI solutions.",
+        tags: ["Certification", "AI" , "Buildathon" , "AIAgents"],
+        link: "https://drive.google.com/file/d/1C2sY_yGr74t1ErUuGUdK8kpEZ4ttiVPh/view?usp=sharing",
+        color: "#231b3d",
+    },
+    {
+        name: "HCL GUVI AI Buildathon 2026 Finalist",
+        org: "HCL GUVI",
+        year: "Mar 2025",
+        desc: "Among Top 2% Finalist. Finalist in the AI Buildathon organized by HCL GUVI, showcasing advanced AI solutions.",
+        tags: ["Certification", "AI" , "Buildathon" , "AIAgents"],
+        link: "https://drive.google.com/file/d/1HhkClsgMxQpmKi9GTu4-u2jPVywsXIY6/view?usp=sharing",
+        color: "#231b3d",
+    },
+
+
+    {
+        name: "Claude 101 Certification",
+        org: "Anthropic",
+        year: "Mar 2025",
+        desc: "Certification for completing the Claude 101 course by Anthropic, covering foundational concepts of AI agents and their applications.",
+        tags: ["Certification", "Claude", "AI Agents"],
+        link: "https://drive.google.com/file/d/1eTROQVq6gVkEvaDNZrfGjGOzV3YEQRKq/view?usp=sharing",
+        color: "#cd333b",
+    },
+    {
+        name: "Claude Code In Action Certification",
+        org: "Anthropic",
+        year: "Mar 2025",
+        desc: "Certification for completing the Claude Code In Action course by Anthropic, covering practical applications of AI agents.",
+        tags: ["Certification", "Claude", "AI Agents"],
+        link: "https://drive.google.com/file/d/1J-v0yCehEKV5LAT0gcmJtBV4JX-4D63h/view?usp=sharing",
+        color: "#3bb137",
+    },
+
+
+    {
         name: "5-Day AI Agents Intensive Course with Google",
         org: "Kaggle",
         year: "Dec 2025",
@@ -127,11 +176,10 @@ const Certifications = () => {
                         <button
                             key={tab}
                             onClick={() => setActiveTab(tab)}
-                            className={`px-4 sm:px-6 py-2 rounded-full text-[10px] sm:text-xs font-bold uppercase transition-all duration-300 border ${
-                                activeTab === tab
+                            className={`px-4 sm:px-6 py-2 rounded-full text-[10px] sm:text-xs font-bold uppercase transition-all duration-300 border ${activeTab === tab
                                     ? "bg-purple-600 border-purple-400 text-white shadow-lg shadow-purple-500/40"
                                     : "bg-[#1a1a2d] border-purple-900/40 text-gray-500 hover:text-white"
-                            }`}
+                                }`}
                         >
                             {tab}
                         </button>
