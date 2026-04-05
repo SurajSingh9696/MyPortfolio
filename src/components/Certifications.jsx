@@ -18,27 +18,27 @@ const allCerts = [
     {
         name: "HCL GUVI AI Buildathon 2026",
         org: "HCL GUVI",
-        year: "Mar 2025",
+        year: "Mar 2026",
         desc: "AI Buildathon organized by HCL GUVI, focused on building AI solutions.",
         tags: ["Certification", "AI" , "Buildathon" , "AIAgents"],
         link: "https://drive.google.com/file/d/1C2sY_yGr74t1ErUuGUdK8kpEZ4ttiVPh/view?usp=sharing",
-        color: "#231b3d",
+        color: "#7458d2",
     },
     {
         name: "HCL GUVI AI Buildathon 2026 Finalist",
         org: "HCL GUVI",
-        year: "Mar 2025",
+        year: "Mar 2026",
         desc: "Among Top 2% Finalist. Finalist in the AI Buildathon organized by HCL GUVI, showcasing advanced AI solutions.",
         tags: ["Certification", "AI" , "Buildathon" , "AIAgents"],
         link: "https://drive.google.com/file/d/1HhkClsgMxQpmKi9GTu4-u2jPVywsXIY6/view?usp=sharing",
-        color: "#231b3d",
+        color: "#d4cfe6",
     },
 
 
     {
         name: "Claude 101 Certification",
         org: "Anthropic",
-        year: "Mar 2025",
+        year: "Mar 2026",
         desc: "Certification for completing the Claude 101 course by Anthropic, covering foundational concepts of AI agents and their applications.",
         tags: ["Certification", "Claude", "AI Agents"],
         link: "https://drive.google.com/file/d/1eTROQVq6gVkEvaDNZrfGjGOzV3YEQRKq/view?usp=sharing",
@@ -47,7 +47,7 @@ const allCerts = [
     {
         name: "Claude Code In Action Certification",
         org: "Anthropic",
-        year: "Mar 2025",
+        year: "Mar 2026",
         desc: "Certification for completing the Claude Code In Action course by Anthropic, covering practical applications of AI agents.",
         tags: ["Certification", "Claude", "AI Agents"],
         link: "https://drive.google.com/file/d/1J-v0yCehEKV5LAT0gcmJtBV4JX-4D63h/view?usp=sharing",
