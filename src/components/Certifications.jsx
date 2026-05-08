@@ -33,8 +33,6 @@ const allCerts = [
         link: "https://drive.google.com/file/d/1HhkClsgMxQpmKi9GTu4-u2jPVywsXIY6/view?usp=sharing",
         color: "#d4cfe6",
     },
-
-
     {
         name: "Claude 101 Certification",
         org: "Anthropic",
@@ -134,7 +132,7 @@ const allCerts = [
         desc: "In-depth training on NotebookLM from basics to advanced applications.",
         tags: ["Certification", "NotebookLM"],
         link: "https://courses.analyticsvidhya.com/certificates/qjuct1hmtk",
-        color: "#e879f9",
+        color: "#79f9db",
     },
     {
         name: "Gemini 3: The AI That Thinks, Sees and Creates",
@@ -143,8 +141,18 @@ const allCerts = [
         desc: "Comprehensive course on Google's Gemini 3 AI model and its capabilities.",
         tags: ["Certification", "Gemini 3"],
         link: "https://courses.analyticsvidhya.com/certificates/rxwqff9j1f",
-        color: "#38bdf8",
+        color: "#f86b38",
     },
+    {
+        name: "More Certificates",
+        org: "Suraj Singh",
+        year: "2024-2028",
+        desc: "Additional certifications in AI, programming, and data science.",
+        tags: ["More Certifications"],
+        link: "https://drive.google.com/drive/folders/1TSPBgnOFdhowDJfVueJl6PThPJHiIoqJ?usp=sharing",
+        color: "#102a36",
+    },
+
 ];
 
 const Certifications = () => {

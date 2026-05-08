@@ -63,21 +63,21 @@ const allProjects = [
     },
 
     {
+        "name": "CampusMart",
+        "desc": "Workspace reserved for campus marketplace project (folder present, implementation not added yet).",
+        "tags": ["Next.js", "Marketplace", "TailwindCSS", "MongoDB"],
+        "link": "https://campusmart-your-shop.vercel.app",
+        "github": "https://github.com/SurajSingh9696/CampusMart",
+        "image": "/projects/campus-buy-sell.png"
+    },
+
+    {
         "name": "My Personal Portfolio",
         "desc": "Personal portfolio website for showcasing projects, skills, and visual identity with responsive design and optimized media.",
         "tags": ["Next.js", "React.js", "TailwindCSS", "Portfolio"],
         "link": "https://suraj-portfolio-site.vercel.app/",
         "github": "https://github.com/SurajSingh9696/MyPortfolio",
         "image": "/projects/portfolio.png"
-    },
-
-    {
-        "name": "Campus Buy and Sell",
-        "desc": "Workspace reserved for campus marketplace project (folder present, implementation not added yet).",
-        "tags": ["Next.js", "Marketplace"],
-        "link": "N/A",
-        "github": "N/A",
-        "image": "/projects/campus-buy-sell.png"
     },
 
     {
@@ -90,11 +90,28 @@ const allProjects = [
     },
 
     {
+        "name": "SmartAttend - Smart Attendance System",
+        "desc": "A multi-role smart attendance management platform featuring real-time attendance tracking, QR-based verification, device fingerprinting, analytics dashboards, and secure role-based access for educational institutions.",
+        "tags": [
+            "Next.js",
+            "React.js",
+            "TypeScript",
+            "MongoDB",
+            "Socket.io",
+            "TailwindCSS",
+            "Node.js"
+        ],
+        "link": "https://smart-attend-attendance-system.vercel.app/",
+        "github": "https://github.com/SurajSingh9696/SmartAttend",
+        "image": "/projects/smartattend.png"
+    },
+
+    {
         "name": "MediaLoader",
-        "desc": "Next.js media-focused application workspace with app and reusable components architecture.",
+        "desc": "It is a media downloading site like youtube videos or instagram reels, it is built using nextjs and tailwindcss and typescript. It has a simple UI and it is very fast.",
         "tags": ["Next.js", "TypeScript", "TailwindCSS"],
         "link": "N/A",
-        "github": "N/A",
+        "github": "https://github.com/SurajSingh9696/MediaLoader",
         "image": "/projects/medialoader.png"
     },
 
@@ -151,6 +168,23 @@ const allProjects = [
         "link": "https://ssl-sentry.vercel.app/",
         "github": "https://github.com/SurajSingh9696/SSL-Sentry",
         "image": "/projects/ssl-sentry.png"
+    },
+
+    {
+        "name": "VeriFair",
+        "desc": "VeriFair is an AI fairness intelligence platform that detects bias and unfair patterns in datasets and AI decision systems using advanced fairness metrics, visual analytics, and AI-powered recommendations.",
+        "tags": [
+            "Next.js",
+            "React.js",
+            "TypeScript",
+            "TailwindCSS",
+            "FramerMotion",
+            "GeminiAPI",
+            "Node.js"
+        ],
+        "link": "https://verifair-webapp.vercel.app",
+        "github": "https://github.com/SurajSingh9696/VeriFair",
+        "image": "/projects/verifair.png"
     },
 
     {
